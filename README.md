@@ -1,1 +1,7 @@
 # Image_to_text
+
+This project aims to develop an efficient and user-friendly OCR (Optical Character Recognition) system capable of extracting textual data from both image files and PDF documents. The system is implemented using Python, leveraging several powerful libraries including pytesseract for OCR processing, Pillow for image handling, and PyMuPDF (fitz) for parsing and extracting text from PDF files.
+
+Designed to operate in an interactive environment like Google Colab, the application allows users to upload multiple files simultaneously in formats such as .jpg, .jpeg, .png, .tif, .tiff, and .pdf. Upon uploading, each file is automatically detected and processed accordingly. Images are converted to text using Tesseract-OCR, while PDFs are processed page-by-page using PyMuPDF to extract embedded or scanned text. The extracted content is displayed in a readable format, facilitating tasks like document digitization, data extraction, content analysis, and archival.
+
+The system also includes basic error handling to manage corrupted or unsupported files and performs optional cleanup by removing uploaded files after processing to maintain a tidy execution environment. This project showcases how open-source tools can be combined to build a lightweight, scalable, and cross-format document processing tool that can be integrated into larger workflows in areas such as education, research, and business automation.
